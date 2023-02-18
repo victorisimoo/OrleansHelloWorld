@@ -1,0 +1,15 @@
+/Users/anton/Projects/OrleansHelloWorld/Grains/bin/Debug/net7.0/Grains.deps.json
+/Users/anton/Projects/OrleansHelloWorld/Grains/bin/Debug/net7.0/Grains.dll
+/Users/anton/Projects/OrleansHelloWorld/Grains/bin/Debug/net7.0/Grains.pdb
+/Users/anton/Projects/OrleansHelloWorld/Grains/bin/Debug/net7.0/GrainInterfaces.dll
+/Users/anton/Projects/OrleansHelloWorld/Grains/bin/Debug/net7.0/GrainInterfaces.pdb
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.csproj.AssemblyReference.cache
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.AssemblyInfoInputs.cache
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.AssemblyInfo.cs
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.csproj.CoreCompileInputs.cache
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.csproj.CopyComplete
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.dll
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/refint/Grains.dll
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/Grains.pdb
+/Users/anton/Projects/OrleansHelloWorld/Grains/obj/Debug/net7.0/ref/Grains.dll

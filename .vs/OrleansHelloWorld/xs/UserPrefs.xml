@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F2A8C036-6B84-45C6-A74B-5492488BA85F}|Default">
+  <MonoDevelop.Ide.ItemProperties.Client FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GrainInterfaces/IHello.cs">
+    <Files>
+      <File FileName="Silo/Program.cs" Line="16" Column="27" />
+      <File FileName="Client/Program.cs" Line="53" Column="2" />
+      <File FileName="GrainInterfaces/IHello.cs" Line="10" Column="1" />
+      <File FileName="Grains/HelloGrain.cs" Line="19" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OrleansHelloWorld" expanded="True">
+            <Node name="Client" expanded="True" />
+            <Node name="GrainInterfaces" expanded="True">
+              <Node name="IHello.cs" selected="True" />
+            </Node>
+            <Node name="Grains" expanded="True" />
+            <Node name="Silo" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Silo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

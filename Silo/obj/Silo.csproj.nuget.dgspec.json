@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anton/Projects/OrleansHelloWorld/Silo/Silo.csproj": {}
+  },
+  "projects": {
+    "/Users/anton/Projects/OrleansHelloWorld/GrainInterfaces/GrainInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anton/Projects/OrleansHelloWorld/GrainInterfaces/GrainInterfaces.csproj",
+        "projectName": "GrainInterfaces",
+        "projectPath": "/Users/anton/Projects/OrleansHelloWorld/GrainInterfaces/GrainInterfaces.csproj",
+        "packagesPath": "/Users/anton/.nuget/packages/",
+        "outputPath": "/Users/anton/Projects/OrleansHelloWorld/GrainInterfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anton/Projects/OrleansHelloWorld/Grains/Grains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anton/Projects/OrleansHelloWorld/Grains/Grains.csproj",
+        "projectName": "Grains",
+        "projectPath": "/Users/anton/Projects/OrleansHelloWorld/Grains/Grains.csproj",
+        "packagesPath": "/Users/anton/.nuget/packages/",
+        "outputPath": "/Users/anton/Projects/OrleansHelloWorld/Grains/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/anton/Projects/OrleansHelloWorld/GrainInterfaces/GrainInterfaces.csproj": {
+                "projectPath": "/Users/anton/Projects/OrleansHelloWorld/GrainInterfaces/GrainInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/anton/Projects/OrleansHelloWorld/Silo/Silo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anton/Projects/OrleansHelloWorld/Silo/Silo.csproj",
+        "projectName": "Silo",
+        "projectPath": "/Users/anton/Projects/OrleansHelloWorld/Silo/Silo.csproj",
+        "packagesPath": "/Users/anton/.nuget/packages/",
+        "outputPath": "/Users/anton/Projects/OrleansHelloWorld/Silo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/anton/Projects/OrleansHelloWorld/Grains/Grains.csproj": {
+                "projectPath": "/Users/anton/Projects/OrleansHelloWorld/Grains/Grains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
